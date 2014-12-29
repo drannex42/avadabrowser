@@ -1,0 +1,19 @@
+{
+  "name": "Avada (by Macleod Sawyer)",
+  "version": "0.0.1",
+  "description": "Let's make the world faster.",
+  "bin": {
+    "avada": "avada"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Macleod Sawywer",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "node-thrust": "^0.7.5",
+    "minimist": "^1.1.0",
+  }
+}

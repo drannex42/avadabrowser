@@ -1,0 +1,129 @@
+html, body {
+  overflow: hidden;
+}
+
+html, body,
+header {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 15px;
+    
+}
+
+header {
+    position:fixed;
+    top:0px;
+}
+
+header input {
+  margin: 12px 0 0 9px;
+  border:none;
+  width: 250px;
+}
+
+header input:focus {
+    outline-width: 0;
+}
+
+#nav {
+  float: left;
+  padding-bottom: 6px;
+  border-bottom: 1px solid black;
+}
+
+#nav .forward,
+#nav .refresh,
+#nav .backward,
+#nav .bookmarks {
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 1px;
+    margin-top: 8px;
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+
+#tabs-wrapper, #tabs {
+  margin: 0;
+  padding: 0;
+}
+
+#tabs-wrapper {
+  height: 40px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tabs {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+
+}
+
+.tabs li {
+  float: left;
+  line-height: 0.5em;
+  padding: 15px;
+  background: white;
+}
+
+.tabs li.active {
+  background-color: #efefef;
+}
+
+li.tab {
+  line-height: 0.7em;
+  width: 20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tab .tab-close {
+    cursor: pointer;
+    /* float: right; */
+    font-size: 0.5em;
+    left: 100%;
+    padding: 3px;
+    position: relative;
+    top: -23px;
+}
+
+#new {
+ /* border: solid 1px gray; */
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+  width: 20px;
+  -webkit-user-select: none;
+  z-index: 1000;
+}
+
+#page-content {
+  height: 95%;
+  width: 100%;
+    margin-top:40px;
+}
+
+#page-content .page {
+  height: 95%;
+  transition: left 0.5s ease-in-out;
+  position: absolute;
+  left: -100%;
+  width: 100%;
+}
+
+#page-content .page.active {
+  left: 0;
+}
