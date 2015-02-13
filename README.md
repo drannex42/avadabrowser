@@ -7,7 +7,7 @@
 1. Clone the repo - 
   + https://github.com/macleodsawyer/avadabrowser.git 
   + https://github.com/macleodsawyer/avadabrowser/archive/master.zip
-2. npm install
+2. npm install --nodedir=app.js
 3. avada
 
 ```
