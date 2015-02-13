@@ -1,6 +1,5 @@
 {
     "name": "Avada",
-	"author": "Macleod Sawyer",
     "version": "0.0.1",
     "description": "Let's make the world faster.",
     "bin": {
