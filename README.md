@@ -1,7 +1,6 @@
 #Avada Browser
 ##Lets's Make The World Faster
 
-
 ###How to run/install
 
 1. Clone the repo - 
