@@ -12,8 +12,8 @@
     "author": "Macleod Sawywer",
     "license": "MIT",
     "dependencies": {
-        "async": "^0.9.0",
-        "node-thrust": "^0.7.5",
-        "minimist": "^1.1.0"
+        "async": "~0.9.0",
+        "node-thrust": "~0.7.5",
+        "minimist": "~1.1.0"
     }
 }
