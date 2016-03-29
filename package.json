@@ -13,7 +13,7 @@
     "license": "MIT",
     "dependencies": {
         "async": "~0.9.0",
-        "node-thrust": "~0.7.5",
+        "node-thrust": "0.7.5-rc2",
         "minimist": "~1.1.0"
     }
 }
